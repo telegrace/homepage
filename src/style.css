@@ -1,0 +1,9 @@
+.draggable-box{
+  position: absolute;
+}
+
+body {
+  /* Prevent the user selecting text in the example */
+  user-select: none;
+  overflow: hidden;
+}
