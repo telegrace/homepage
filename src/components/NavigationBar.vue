@@ -3,8 +3,8 @@
     <li role="menu-item" tabindex="0" aria-haspopup="true">
       File
       <ul role="menu">
-        <li role="menu-item"><a href="#menu">New Text File</a></li>
-        <li role="menu-item"><a href="#menu">Make It Rain</a></li>
+        <li role="menu-item"><a href="#newfile">New Text File</a></li>
+        <li role="menu-item"><a href="https://make-it-rain.telegrace.repl.co" target="_blank" rel="noopener noreferrer">Make It Rain</a></li>
         <li role="menu-item"><a href="#menu">High Five</a></li>
         <li role="menu-item"><a href="#menu">Student Loan Calculator</a></li>
         <li role="menu-item"><a href="#menu">Object Detection</a></li>

@@ -1,7 +1,11 @@
-.draggable-box{
+.draggable-box, .new-text-file{
   position: absolute;
 }
 
+.new-text-file textarea{
+  max-width: 475px;
+  min-width: 475px;
+}
 body {
   /* Prevent the user selecting text in the example */
   user-select: none;

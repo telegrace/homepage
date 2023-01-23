@@ -16,11 +16,11 @@ const mouseUpHandler = ()=>{
   dragFlag=false
 }
 
-const mouseMoveHandler = (event) => {
+const mouseMoveHandler = (event:MouseEvent ) => {
   if (dragFlag) {
     const x = event.clientX;
     const y = event.clientY;
-    left.value = x - 400 / 2;
+    left.value = x - 400 / 2; //toString() causes weird 
     top.value = y - 100 / 2;
   }
 }
